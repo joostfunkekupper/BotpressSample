@@ -1,0 +1,32 @@
+{
+  "name": "botpresssample",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "botpress": "0.x",
+    "botpress-api.ai": "^2.0.6",
+    "botpress-messenger": "^2.0.11",
+    "lodash": "^4.17.4",
+    "npm-watch": "^0.1.8"
+  },
+  "scripts": {
+    "start": "botpress start",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "npm-watch"
+  },
+  "author": "",
+  "license": "AGPL-3.0",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "watch": {
+    "start": {
+      "patterns": [
+        "modules",
+        "extensions"
+      ],
+      "extensions": "js,jsx,scss,json,html"
+    }
+  }
+}
